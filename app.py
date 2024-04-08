@@ -9,7 +9,7 @@ from hugchat.login import Login
 st.set_page_config(page_title=" UTY CORPORATION")
 
 col1, col2 = st.columns([0.5, 3])
-col2.markdown("#### PHEONIX - AMAZON LISTING SUPPORT & CHAT 💬")
+col2.markdown("#### PHOENIX - AMAZON LISTING SUPPORT & CHAT 💬")
 col1.image("./logo/phoenix.png", width=100)
 
 hf_email = st.secrets['EMAIL']
